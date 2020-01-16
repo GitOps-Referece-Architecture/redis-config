@@ -2,4 +2,5 @@ redis:
   fullnameOverride: redis-cart
   usePassword: false
   cluster.enabled: false
+  cluster.slaveCount: 1
 
